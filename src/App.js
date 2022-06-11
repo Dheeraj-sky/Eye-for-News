@@ -4,7 +4,7 @@ import './App.css';
 import React, { Component } from 'react'
 import Navbar from './component/Navbar';
 import News from './component/News';
-import { BrowserRouter as Router, Routes, Route,} from "react-router-dom";
+import { HashRouter as Router, Routes, Route,} from "react-router-dom";
 export default class App extends Component {
   pageSize=6;
   // apikey=process.env.REACT_APP_NEWS_API
